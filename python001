@@ -1,0 +1,11 @@
+#数组中所有字符串遍历相乘，如果是字符记为1
+
+arr = ['123','asd','2']
+result = 1
+for n in arr:
+	if str.isdigit(n):
+		result *= int(n)
+	else:
+		continue
+print(result)
+	
